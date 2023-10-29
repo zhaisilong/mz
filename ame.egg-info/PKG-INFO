@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ame
+Version: 0.0.1
+Summary: Mz
+Home-page: https://github.com/zhaisilong/mz
+Author: Zhai Silong
+Author-email: zhaisilong@outlook.com
+License: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# MZ
+
+## Setup
+
+```bash
+cd mz
+mamba create python=3.9 -nmz
+mamba activate mz
+mamba install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+mamba install seaborn pandas scikit-learn
+
+pip install -e .
+```

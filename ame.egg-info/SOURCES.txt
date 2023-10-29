@@ -1,0 +1,7 @@
+README.md
+setup.py
+ame.egg-info/PKG-INFO
+ame.egg-info/SOURCES.txt
+ame.egg-info/dependency_links.txt
+ame.egg-info/top_level.txt
+core/__init__.py
